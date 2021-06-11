@@ -19,7 +19,7 @@ const fetchOwner = (catId) => {
   });
 };
 
-const fetchOwners = (catIDs) => {
+const fetchOwners = async (catIDs) => {
   const owners = [];
   for (const id of catIDs) {
     const cat = await fetchCat(id);
@@ -28,3 +28,6 @@ const fetchOwners = (catIDs) => {
   }
   return owners;
 };
+
+const a = fetchOwners([2, 4, 6, 8]);
+console.log(a);
