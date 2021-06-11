@@ -1,0 +1,23 @@
+{
+  "name": "optimized-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangkhoaitt/optimized-async.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangkhoaitt/optimized-async/issues"
+  },
+  "homepage": "https://github.com/dangkhoaitt/optimized-async#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
